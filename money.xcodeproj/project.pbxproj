@@ -26,6 +26,8 @@
 		7B65758916AB6B6900D0C677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B65755B16AB6B6900D0C677 /* Foundation.framework */; };
 		7B65759116AB6B6900D0C677 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B65758F16AB6B6900D0C677 /* InfoPlist.strings */; };
 		7B65759416AB6B6900D0C677 /* moneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B65759316AB6B6900D0C677 /* moneyTests.m */; };
+		7B6575A616ABAC4F00D0C677 /* money1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B6575A416ABAC4F00D0C677 /* money1.png */; };
+		7B6575A716ABAC4F00D0C677 /* money2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B6575A516ABAC4F00D0C677 /* money2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		7B65759016AB6B6900D0C677 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7B65759216AB6B6900D0C677 /* moneyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = moneyTests.h; sourceTree = "<group>"; };
 		7B65759316AB6B6900D0C677 /* moneyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moneyTests.m; sourceTree = "<group>"; };
+		7B6575A416ABAC4F00D0C677 /* money1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money1.png; sourceTree = "<group>"; };
+		7B6575A516ABAC4F00D0C677 /* money2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,7 @@
 		7B65755F16AB6B6900D0C677 /* money */ = {
 			isa = PBXGroup;
 			children = (
+				7B65759D16ABAA3500D0C677 /* img */,
 				7B65756816AB6B6900D0C677 /* MoneyAppDelegate.h */,
 				7B65756916AB6B6900D0C677 /* MoneyAppDelegate.m */,
 				7B65757116AB6B6900D0C677 /* MoneyRootViewController.h */,
@@ -171,6 +176,15 @@
 				7B65758F16AB6B6900D0C677 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B65759D16ABAA3500D0C677 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				7B6575A416ABAC4F00D0C677 /* money1.png */,
+				7B6575A516ABAC4F00D0C677 /* money2.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +265,8 @@
 				7B65757016AB6B6900D0C677 /* Default-568h@2x.png in Resources */,
 				7B65757C16AB6B6900D0C677 /* MainStoryboard_iPhone.storyboard in Resources */,
 				7B65757F16AB6B6900D0C677 /* MainStoryboard_iPad.storyboard in Resources */,
+				7B6575A616ABAC4F00D0C677 /* money1.png in Resources */,
+				7B6575A716ABAC4F00D0C677 /* money2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

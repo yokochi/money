@@ -10,7 +10,10 @@
 
 @interface MoneyDataViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UILabel *dataLabel;
 @property (strong, nonatomic) id dataObject;
+@property (nonatomic) NSUInteger objectIndex;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) UIImage *moneyImage1;
+@property (weak, nonatomic) UIImage *moneyImage2;
 
 @end

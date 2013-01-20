@@ -25,7 +25,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     // Configure the page view controller and add it as a child view controller.
-    self.pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStylePageCurl navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
+    self.pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStylePageCurl navigationOrientation:UIPageViewControllerNavigationOrientationVertical options:nil];
     self.pageViewController.delegate = self;
 
     MoneyDataViewController *startingViewController = [self.modelController viewControllerAtIndex:0 storyboard:self.storyboard];
@@ -84,8 +84,8 @@
         NSArray *viewControllers = @[currentViewController];
         [self.pageViewController setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:NULL];
         
-        self.pageViewController.doubleSided = NO;
-        return UIPageViewControllerSpineLocationMin;
+        self.pageViewController.doubleSided = YES;
+        return UIPageViewControllerSpineLocationMax;
     }
 
     // In landscape orientation: Set set the spine location to "mid" and the page view controller's view controllers array to contain two view controllers. If the current page is even, set it to contain the current and next view controllers; if it is odd, set the array to contain the previous and current view controllers.
